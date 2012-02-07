@@ -1,4 +1,4 @@
-def isPalandrome(toTest):
+def isPalindrome(toTest):
     length = len(str(toTest))
     if length % 2 != 0:
         return False
@@ -19,7 +19,7 @@ results = []
 for x in range(1, 999):
     for y in range(x, 999):
         product = x*y
-        if (isPalandrome(product)):
+        if (isPalindrome(product)):
             results.append(product)
             #print(x, y, product)
 
